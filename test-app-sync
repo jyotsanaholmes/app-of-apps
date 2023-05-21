@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: kustomize-guestbook
+    path: guestbook
     repoURL: https://github.com/jannfis/argocd-example-apps
     targetRevision: HEAD
   syncPolicy:
