@@ -12,4 +12,5 @@ spec:
     path: app
     repoURL: https://github.com/jyotsanaholmes/openshift-gitops-getting-started/
     targetRevision: HEAD
-  syncPolicy: {}
+  syncPolicy:
+    automated: {}
